@@ -1,0 +1,48 @@
+body{
+    background-repeat: no-repeat;
+}
+header{
+    border-bottom: 5px solid #C7B10E;
+}
+.carousel .carousel-item{
+    height:450px;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    height: 450px;
+}
+.carousel-caption h4{
+    background-color: black;
+    opacity: 0.8;
+    display: inline-flex;
+    padding: 5px;
+}
+.carousel-caption h1{
+    background-color: black;
+    opacity: 0.8;
+    display: inline-flex;
+    padding: 5px;
+}
+.carousel-caption p{
+    display: table;
+    background-color: black;
+    opacity: 0.8;
+    margin: 0px auto 0px auto;
+    padding:5px;
+}
+.goal-img{
+    height:300px;
+}
+.banner{
+    background-image: url('../images/banner.jpg');
+}
+.follow a{
+    text-decoration: none;
+}
+.info{
+    background-color: black;
+    opacity: 0.8;
+}
