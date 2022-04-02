@@ -43,3 +43,18 @@ header{
     background-color: black;
     opacity: 0.8;
 }
+.sticky-top li a{
+    display: inline-block;
+}
+.sticky-top li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #C7B10E;
+    transition: width .3s;
+}  
+.sticky-top li a:hover::after{
+    width:100%;
+}
+
